@@ -9,7 +9,7 @@
 #*/
 'use strict';
 const config = require('./src/config');
-const Mapscii = require('./src/MapsciiCelt');
+const MapsciiCelt = require('./src/MapsciiCelt');
 const argv = require('yargs')
   .option('latitude', {
     alias: 'lat',

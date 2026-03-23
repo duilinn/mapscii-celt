@@ -14,7 +14,7 @@ const argv = require('yargs')
   .option('latitude', {
     alias: 'lat',
     description: 'Latitude of initial centre',
-    default: config.initialLat,
+      default: config.initialLat,
     type: 'number',
   })
   .option('longitude', {

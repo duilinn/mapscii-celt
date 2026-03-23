@@ -1,5 +1,6 @@
 module.exports = {
-  language: 'ga',
+    language: 'ga',
+    languageBackup: 'cy',
 
   // TODO: adapt to osm2vectortiles successor openmaptiles v3)
   // mapscii.me hosts the last available version, 2016-06-20

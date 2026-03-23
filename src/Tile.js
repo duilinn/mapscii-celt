@@ -86,7 +86,7 @@ class Tile {
         // use feature.loadGeometry() again as soon as we got a 512 extent tileset
         const geometries = feature.loadGeometry(); //@_reduceGeometry feature, 8
         const sort = feature.properties.localrank || feature.properties.scalerank;
-          const label = style.type === 'symbol' ? feature.properties['name:' + config.language] || feature.properties['name:' + config.languageBackup] || feature.properties.name || feature.properties.house_num : void 0;
+          const label = style.type === 'symbol' ? feature.properties['name:ga'];// + config.language] || feature.properties['name:' + config.languageBackup] || feature.properties.name || feature.properties.house_num : void 0;
         if (style.type === 'fill') {
           nodes.push(this._addBoundaries(true, {
             //            id: feature.id

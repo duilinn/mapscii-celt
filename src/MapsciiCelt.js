@@ -14,7 +14,7 @@ const TileSource = require('./TileSource');
 const utils = require('./utils');
 let config = require('./config');
 
-class Mapscii {
+class MapsciiCelt {
   constructor(options) {
     this.width = null;
     this.height = null;
@@ -48,7 +48,7 @@ class Mapscii {
     this._initTileSource();
     this._initRenderer();
     this._draw();
-    this.notify('Welcome to MapSCII! Use your cursors to navigate, a/z to zoom, q to quit.');
+    this.notify('Welcome to MapSCII-CELT! Use your cursors to navigate, a/z to zoom, q to quit.');
   }
 
 
@@ -310,4 +310,4 @@ class Mapscii {
   }
 }
 
-module.exports = Mapscii;
+module.exports = MapsciiCelt;

@@ -9,7 +9,7 @@
 #*/
 'use strict';
 const config = require('./src/config');
-const Mapscii = require('./src/Mapscii');
+const Mapscii = require('./src/MapsciiCelt');
 const argv = require('yargs')
   .option('latitude', {
     alias: 'lat',
@@ -80,8 +80,8 @@ const options = {
   styleFile: argv.style_file,
 };
 
-const mapscii = new Mapscii(options);
-mapscii.init().catch((err) => {
-  console.error('Failed to start MapSCII.');
+const mapsciiCelt = new MapsciiCelt(options);
+mapsciiCelt.init().catch((err) => {
+  console.error('Failed to start MapSCII-CELT.');
   console.error(err);
 });

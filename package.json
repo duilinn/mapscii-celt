@@ -1,7 +1,7 @@
 {
-  "name": "mapscii",
+  "name": "mapscii-celt",
   "version": "0.3.1",
-  "description": "MapSCII is a Braille & ASCII world map renderer for your console, based on OpenStreetMap",
+  "description": "MapSCII-CELT is a fork of MapSCII that displays a map in the console in Celtic Languages",
   "main": "main.js",
   "scripts": {
     "lint": "eslint src",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rastapasta/mapscii.git"
+    "url": "https://github.com/duilinn/mapscii-celt.git"
   },
   "bin": {
-    "mapscii": "./bin/mapscii.sh"
+    "mapscii-celt": "./bin/mapscii-celt.sh"
   },
   "engines": {
     "node": ">=10"
